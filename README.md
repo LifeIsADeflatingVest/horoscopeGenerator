@@ -1,0 +1,1 @@
+A little fun experiment, intended to expose the methodology of "fortune-telling", this "horoscope" generator generates generic but believable "predictions". (Yeah, there are many quotation marks here). For more information, see the [relevant page on my Blog](https://blog.homeforfiction.com/2019/11/10/javascript-horoscope-generator/)
