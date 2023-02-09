@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/rita/2.8.31/rita.js" integrity="sha512-IGhGQtL9ApCRosCUaAuSlsUBrNeJpvviwzFyXvUFU/NpAudeKEvan5KIMC0QF3aT3Dp1/cGXHq936bpd8IVu7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+    <script src="script.js"></script>
+    <title>Horoscope Generator</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+<div class="text">
+			<table>
+				<tbody>
+					<tr>
+						<td colSpan="2">
+							<img src="quack.jpg" alt="home for fiction"/>
+						</td>
+					</tr>
+					<tr>
+		  				<td>
+		  					<p>Select… Sign<br></br><span class="smaller">&#40;<em>almost</em> dummy buttons&#41;</span>
+		  					</p>
+		  				</td>  
+						<td>
+							<p>
+								<button class="dummy_button">Aries</button>
+								<button class="dummy_button">Taurus</button>
+								<button class="dummy_button">Gemini</button>
+								<button class="dummy_button">Cancer</button>
+								<button class="dummy_button">Leo</button>
+								<button class="dummy_button">Virgo</button>
+								<button class="dummy_button">Libra</button>
+								<button class="dummy_button">Scorpio</button>
+								<button class="dummy_button">Sagittarius</button>
+								<button class="dummy_button">Capricorn</button>
+								<button class="dummy_button">Aquarius</button>
+								<button id="piscButton" class="dummy_button">Pisces</button>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Increased Randomization</p>
+						</td>
+						<td>
+							<button id="btn">Off</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Generate New</p>
+						</td>
+						<td>
+							<button id="btn2">Go</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p class="title" id="zText">Your… Horoscope</p>
+			<p id="horo" class ="hor"></p>
+		</div>
+  </body>
+</html>
