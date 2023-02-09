@@ -10,6 +10,7 @@ $(document).ready(function(){
 	});	
 	let elem = document.getElementById("btn");
 	elem.style.backgroundColor = "crimson";
+	elem.innerHTML = "Off";
 
 	function dmAdd() {
 		if (elem.innerHTML == "Off") {
